@@ -1,0 +1,1297 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khanoumi</title>
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-------------------Header------------------->
+    <nav
+      class="bg-light w-100 d-flex align-items-center shadow-sm position-fixed top-0"
+    >
+      <div class="dastebandi d-flex align-items-center column-gap-2">
+        <button
+          class="dastebandi btn btn-light p-0"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#x"
+        >
+          <img
+            src="./image/dastebandi.svg"
+            alt="dastebandi"
+            class="img-fluid"
+          />
+        </button>
+        <a href="#" class="logo d-block"
+          ><img
+            src="./image/Khanoumi-logo.svg"
+            alt="logo-khanoumi"
+            class="w-100"
+        /></a>
+      </div>
+
+      <div class="offcanvas offcanvas-end w-75" id="x">
+        <div
+          class="offcanvasheader w-100 d-flex justify-content-between align-items-center"
+        >
+          <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+          <a
+            href="#"
+            class="text-decoration-none d-flex justify-content-center align-items-center py-2"
+            >مجله خانومی</a
+          >
+        </div>
+        <div class="offcanvasbody d-flex w-100">
+          <div class="titr right w-50 d-flex bg-light position-relative">
+            <a
+              class="titr d-block w-100 text-decoration-none text-secondary d-flex flex-column justify-content-center align-items-center"
+              href="#"
+              >دسته‌بندی
+              <div class="khat w-100"></div>
+            </a>
+            <div
+              class="dastebandy-body d-none w-100 d-flex flex-column position-absolute top-100 py-2 px-3"
+            >
+              <h6>پیشنهاد ویژه</h6>
+              <div class="items d-flex flex-column row-gap-3">
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center"
+                  ><span class="fas fa-plus text-secondary ms-2"></span>
+                  <p class="text-secondary mb-0">مراقبت پوست</p></a
+                >
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center"
+                  ><span class="fas fa-plus text-secondary ms-2"></span>
+                  <p class="text-secondary mb-0">مراقبت مو</p></a
+                >
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center"
+                  ><span class="fas fa-plus text-secondary ms-2"></span>
+                  <p class="text-secondary mb-0">بهداشت شخصی</p></a
+                >
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center"
+                  ><span class="fas fa-plus text-secondary ms-2"></span>
+                  <p class="text-secondary mb-0">عطر و ادکلن</p></a
+                >
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center"
+                  ><span class="fas fa-plus text-secondary ms-2"></span>
+                  <p class="text-secondary mb-0">آقایان</p></a
+                >
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center"
+                  ><span class="fas fa-plus text-secondary ms-2"></span>
+                  <p class="text-secondary mb-0">آرایشی</p></a
+                >
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center"
+                  ><span class="fas fa-plus text-secondary ms-2"></span>
+                  <p class="text-secondary mb-0">لوازم برقی شخصی</p></a
+                >
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center"
+                  ><span class="fas fa-plus text-secondary ms-2"></span>
+                  <p class="text-secondary mb-0">مادر و کودک</p></a
+                >
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center"
+                  ><span class="fas fa-plus text-secondary ms-2"></span>
+                  <p class="text-secondary mb-0">مکمل غذایی و ورزشی</p></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="titr left w-50 d-flex bg-light position-relative">
+            <a
+              class="titr d-block w-100 text-decoration-none text-secondary d-flex justify-content-center align-items-center"
+              href="#"
+              >برندها
+              <div class="khat w-100"></div>
+            </a>
+
+            <div
+              class="brands-body d-flex flex-column position-absolute top-100 start-0 bg-secondary px-2"
+            >
+              <input
+                type="text"
+                name="text"
+                id=""
+                placeholder="جستجوی برند"
+                class="bg-light my-2 col-12 border-0 rounded-2 p-1"
+              />
+
+              <div class="brands-alpha d-flex justify-content-between col-12">
+                <div class="brands col-11 text-black">
+                  <h6>برندهای برتر</h6>
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>آدرا</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>آردن</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>کالیستا</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>سریتا</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>سینره</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>کامان</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>دیپ سنس</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>هیدرو درم</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>این لی</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>لافارر</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>مدیلن</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>مورینگا</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>مای</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>نئودرم</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>نوت</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>الیوکس</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>پریم</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>شون</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>سی گل</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>سان سیف</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>ساین اسکین</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>ویتالیر</p></a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none d-flex align-items-center text-black-50"
+                    ><p>وچه</p></a
+                  >
+                </div>
+
+                <div class="alpha col-1 d-flex flex-column align-items-center">
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ا</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ب</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >پ</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ت</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ث</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ج</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >چ</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ح</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >خ</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >د</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ذ</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ر</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ز</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ژ</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >س</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ش</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ص</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ض</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ط</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ظ</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ع</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >غ</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ف</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ق</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ک</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >گ</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ل</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >م</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ن</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >و</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ه</a
+                  >
+                  <a href="#" class="text-decoration-none text-black-50 mb-1"
+                    >ی</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------------Menu------------------------>
+      <div class="menu d-flex justify-content-between align-items-center">
+        <ul class="d-flex h-100 column-gap-4 m-0">
+          <li class="list-unstyled">
+            <a
+              href="#"
+              class="text-decoration-none h-100 d-flex align-items-center"
+              >محصولات</a
+            >
+          </li>
+          <li class="list-unstyled">
+            <a
+              href="#"
+              class="text-decoration-none h-100 d-flex align-items-center"
+              >برندها</a
+            >
+          </li>
+          <li class="list-unstyled">
+            <a
+              href="#"
+              class="text-decoration-none h-100 d-flex align-items-center"
+              >پیشنهاد ویژه</a
+            >
+          </li>
+          <li class="list-unstyled">
+            <a
+              href="#"
+              class="text-decoration-none h-100 d-flex align-items-center"
+              >مجله خانومی</a
+            >
+          </li>
+        </ul>
+
+        <div
+          class="search rounded-2 d-flex justify-content-around align-items-center"
+        >
+          <img src="./image/search.svg" alt="search" class="img-fluid" />
+          <div class="khat"></div>
+          <input
+            type="text"
+            name="search"
+            id=""
+            placeholder="جستجو"
+            class="border-0 rounded-start-2"
+          />
+        </div>
+
+        <div
+          class="user d-flex justify-content-between align-items-center column-gap-lg-4"
+        >
+          <img src="./image/search.svg" alt="search" class="search img-fluid" />
+          <a href="#"
+            ><span class="far fa-user text-black-50 me-lg-2"></span
+          ></a>
+          <a href="#"><span class="fas fa-shopping-cart"></span></a>
+        </div>
+      </div>
+      <!------------------------End Menu------------------------>
+    </nav>
+
+    <!-------------------End-Header------------------->
+
+    <!-------------------Autoplay-swiper------------------->
+    <div class="autoplay-swiper col-12">
+      <div class="swiper mySwiper-autoplay">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./image/first-swiper-1.jpg" alt="محصولات هیدرودرم"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./image/first-swiper-2.jpg" alt="محصولات تگودر"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./image/first-swiper-3.jpg" alt="محصولات ساین اسکین"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./image/first-swiper-4.jpg" alt="مکمل غذایی و ورزشی"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./image/first-swiper-5.jpg" alt="محصولات کالیستا"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./image/first-swiper-6.jpg" alt="محصولات فولیکا"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./image/first-swiper-7.jpg" alt="اسنپ پی"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./image/first-swiper-8.jpg" alt="محصولات اسکین وان"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./image/first-swiper-9.jpg" alt="پک ها" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./image/first-swiper-10.jpg" alt="حراج بزرگ خانومی"
+            /></a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-------------------End-Autoplay-swiper------------------->
+    <!------------------جعبه صورتی------------------>
+    <div class="jabe-soorati col-10 mx-auto mt-5 rounded-4 d-flex flex-column">
+      <div class="jabe-soorati-logo w-100">
+        <img src="./image/pink-box-logo.svg" alt="جعبه صورتی" />
+      </div>
+      <div class="jabe-item d-flex w-100 column-gap-2">
+        <div class="haraj d-flex justify-content-center">
+          <img
+            src="./image/638404772708736753.gif"
+            alt="حراج بزرگ روزانه"
+            class="img-fluid"
+          />
+        </div>
+
+        <div class="jabe-swiper">
+          <div class="swiper mySwiper2 w-100">
+            <div class="swiper-wrapper w-100">
+              <div class="swiper-slide rounded-3">
+                <a href="#" class="rounded-3">
+                  <img
+                    src="./image/second-swiper-1.jpg"
+                    alt="ریمل حجم دهنده نیوول"
+                    class="rounded-3 img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide rounded-3">
+                <a href="#" class="rounded-3">
+                  <img
+                    src="./image/second-swiper-2.jpg"
+                    alt="خط چشم رنگی یوفوریا کالیستا"
+                    class="rounded-3 img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide rounded-3">
+                <a href="#" class="rounded-3">
+                  <img
+                    src="./image/second-swiper-3.jpg"
+                    alt="شش عدد لاک با رنگ رندوم تروکاور"
+                    class="rounded-3 img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide rounded-3">
+                <a href="#" class="rounded-3">
+                  <img
+                    src="./image/second-swiper-4.jpg"
+                    alt="ضد آفتاب ضد لک درماتیپیک"
+                    class="rounded-3 img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide rounded-3">
+                <a href="#" class="rounded-3">
+                  <img
+                    src="./image/second-swiper-5.jpg"
+                    alt="رژلب جامد مخملی گلدن رز"
+                    class="rounded-3 img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide rounded-3">
+                <a href="#" class="rounded-3">
+                  <img
+                    src="./image/second-swiper-6.jpg"
+                    alt="ماسک صورت کربن فعال رینوزیت"
+                    class="rounded-3 img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide rounded-3">
+                <a href="#" class="rounded-3">
+                  <img
+                    src="./image/second-swiper-7.jpg"
+                    alt="ضد آفتاب ضد لک لافارر"
+                    class="rounded-3 img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide rounded-3">
+                <a href="#" class="rounded-3">
+                  <img
+                    src="./image/second-swiper-8.jpg"
+                    alt="مشاهده همه"
+                    class="rounded-3 img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next">
+              <span class="fas fa-arrow-left text-secondary"></span>
+            </div>
+            <div class="swiper-button-prev">
+              <span class="fas fa-arrow-right text-secondary"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------اتمام-جعبه صورتی------------------>
+
+    <!---------پرفروشهای-حراج-بزرگ-اسفند--------->
+    <div class="porforoosh mx-auto mt-5 rounded-2">
+      <a href="#" class="w-100 d-block rounded-2">
+        <img
+          src="./image/porforoosh.jpg"
+          alt="پرفروش های حراج بزرگ اسفند"
+          class="img-fluid rounded-2"
+        />
+      </a>
+    </div>
+    <!---------اتمام-پرفروشهای-حراج-بزرگ-اسفند--------->
+
+    <!------------محصولات-گلدن-رز------------->
+
+    <div class="golden-rose mx-auto rounded-2">
+      <a href="#" class="w-100 d-block rounded-2">
+        <img
+          src="./image/golden-rose.jpg"
+          alt="محصولات گلدن رز"
+          class="img-fluid rounded-2"
+        />
+      </a>
+    </div>
+    <!------------اتمام-محصولات-گلدن-رز------------->
+
+    <!---------------------پیشنهادهای-ویژه--------------------->
+    <div class="bakhshe-vije mt-5 mx-auto d-flex flex-column">
+      <div
+        class="titr d-flex justify-content-center align-items-center pt-4 pb-3"
+      >
+        پیشنهادهای ویژه
+      </div>
+      <div
+        class="pishnahad d-flex justify-content-center row-gap-2 column-gap-4 flex-wrap"
+      >
+        <a href="#" class="d-block bg-info rounded-2"
+          ><img
+            src="./image/pishnahad-vije-1.jpg"
+            alt="ضد آفتاب"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block bg-info rounded-2"
+          ><img
+            src="./image/pishnahad-vije-2.jpg"
+            alt="آردن"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block bg-info rounded-2"
+          ><img
+            src="./image/pishnahad-vije-3.jpg"
+            alt="مرطوب کننده و آبرسان"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block bg-info rounded-2"
+          ><img
+            src="./image/pishnahad-vije-4.jpg"
+            alt="لافارر"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block bg-info rounded-2"
+          ><img
+            src="./image/pishnahad-vije-5.jpg"
+            alt="شوینده"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block bg-info rounded-2"
+          ><img
+            src="./image/pishnahad-vije-6.jpg"
+            alt="درماتیپیک"
+            class="w-100 rounded-2"
+        /></a>
+      </div>
+    </div>
+    <!---------------------اتمام پیشنهادهای ویژه--------------------->
+
+    <!----------------------box1---------------------->
+    <div class="box1 mt-2 mx-auto d-flex bg-light">
+      <div class="pardakht bg-light w-25 d-flex">
+        <img src="./image/box1-1.svg" alt="نماد اعتماد" />
+        <div class="matn d-flex flex-column justify-content-evenly">
+          <p class="m-0">نماد اعتماد</p>
+          <div class="khat w-100"></div>
+          <a href="#" class="text-decoration-none">پرداخت امن</a>
+        </div>
+      </div>
+      <div class="pardakht bg-light w-25 d-flex">
+        <img src="./image/box1-2.svg" alt="نحوه پرداخت" />
+        <div class="matn d-flex flex-column justify-content-evenly">
+          <p class="m-0">نحوه پرداخت</p>
+          <div class="khat w-100"></div>
+          <a href="#" class="text-decoration-none">تمامی کارتهای عضو شتاب</a>
+        </div>
+      </div>
+      <div class="pardakht bg-light w-25 d-flex">
+        <img src="./image/box1-3.svg" alt="ارسال رایگان" />
+        <div class="matn d-flex flex-column justify-content-evenly">
+          <p class="m-0">ارسال رایگان</p>
+          <div class="khat w-100"></div>
+          <a href="#" class="text-decoration-none">جزئیات هزینه ارسال</a>
+        </div>
+      </div>
+      <div class="pardakht bg-light w-25 d-flex">
+        <img src="./image/box1-4.svg" alt="7 روز بازگشت ارسال رایگان" />
+        <div class="matn d-flex flex-column justify-content-evenly">
+          <p class="m-0">7 روز بازگشت ارسال رایگان</p>
+          <div class="khat w-100"></div>
+          <a href="#" class="text-decoration-none">شرایط خدمات پس از فروش</a>
+        </div>
+      </div>
+    </div>
+    <!----------------------End-box1---------------------->
+
+    <!-------------------دسترسی ویژه------------------->
+    <div class="dastresi-vijeh col-11 mt-3 mx-auto d-flex flex-column">
+      <div
+        class="titr col-12 d-flex justify-content-center align-items-center pt-4 pb-3"
+      >
+        دسترسی ویژه
+      </div>
+      <div
+        class="dastresi col-12 d-flex justify-content-center row-gap-2 column-gap-4 flex-wrap"
+      >
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            عطر
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="عطر"
+              class="w-100 rounded-top-2"
+              src="./image/dastresi-vije-1.jpg"
+            />
+          </div>
+        </a>
+
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            آرایشی
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="آرایشی"
+              class="w-100 rounded-top-2"
+              src="./image/dastresi-vije-2.jpg"
+            />
+          </div>
+        </a>
+
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            ماسک مو
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="ماسک مو"
+              class="w-100 rounded-top-2"
+              src="./image/dastresi-vije-3.jpg"
+            />
+          </div>
+        </a>
+
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            ماسک صورت
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="ماسک صورت"
+              class="w-100 rounded-top-2"
+              src="./image/dastresi-vije-4.jpg"
+            />
+          </div>
+        </a>
+
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            شامپو
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="شامپو"
+              class="w-100 rounded-top-2"
+              src="./image/dastresi-vije-5.jpg"
+            />
+          </div>
+        </a>
+
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            تونر
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="تونر"
+              class="w-100 rounded-top-2"
+              src="./image/dastresi-vije-6.jpg"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-------------------اتمام دسترسی ویژه------------------->
+
+    <!-------------------بخش ویژه------------------->
+    <div class="bakhsh-vijeh col-11 mt-3 mx-auto d-flex flex-column">
+      <div
+        class="titr col-12 d-flex justify-content-center align-items-center pt-4 pb-3"
+      >
+        بخش ویژه
+      </div>
+      <div
+        class="bakhsh col-12 d-flex justify-content-center row-gap-2 column-gap-4 flex-wrap"
+      >
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            آریو اوکی
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="آریو اوکی"
+              class="w-100 rounded-top-2"
+              src="./image/bakhsh-vijeh-1.jpg"
+            />
+          </div>
+        </a>
+
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            لایسل
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="لایسل"
+              class="w-100 rounded-top-2"
+              src="./image/bakhsh-vijeh-2.jpg"
+            />
+          </div>
+        </a>
+
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            کالیستا
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="کالیستا"
+              class="w-100 rounded-top-2"
+              src="./image/bakhsh-vijeh-3.jpg"
+            />
+          </div>
+        </a>
+
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            تگودر
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="تگودر"
+              class="w-100 rounded-top-2"
+              src="./image/bakhsh-vijeh-4.jpg"
+            />
+          </div>
+        </a>
+
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            نیوول
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="نیوول"
+              class="w-100 rounded-top-2"
+              src="./image/bakhsh-vijeh-5.jpg"
+            />
+          </div>
+        </a>
+
+        <a href="#" class="text-decoration-none d-flex flex-column col-5">
+          <h6
+            class="col-12 rounded-bottom-2 bg-light text-dark py-2 m-0 d-flex justify-content-center"
+          >
+            فولیکا
+          </h6>
+          <div class="img col-12 rounded-top-2">
+            <img
+              alt="فولیکا"
+              class="w-100 rounded-top-2"
+              src="./image/bakhsh-vijeh-6.jpg"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-------------------اتمام بخش ویژه------------------->
+
+    <!------------------انتخاب خانومی------------------>
+    <div class="entekhab-khanoumi d-flex flex-column mx-auto mt-5">
+      <div
+        class="titr d-flex justify-content-center align-items-center pt-4 pb-3"
+      >
+        انتخاب خانومی
+      </div>
+      <div
+        class="entekhab w-100 d-flex flex-row justify-content-center column-gap-2"
+      >
+        <a href="#" class="d-block w-25 rounded-2">
+          <img
+            src="./image/entekhab-1.jpg"
+            alt="اسکن اسکین"
+            class="rounded-2 w-100"
+          />
+        </a>
+        <a href="#" class="d-block w-25 rounded-2">
+          <img
+            src="./image/entekhab-2.jpg"
+            alt="ژیناژن"
+            class="rounded-2 w-100"
+          />
+        </a>
+        <a href="#" class="d-block w-25 rounded-2">
+          <img
+            src="./image/entekhab-3.jpg"
+            alt="اسکین شیک"
+            class="rounded-2 w-100"
+          />
+        </a>
+        <a href="#" class="d-block w-25 rounded-2">
+          <img
+            src="./image/entekhab-4.jpg"
+            alt="سریتا"
+            class="rounded-2 w-100"
+          />
+        </a>
+      </div>
+    </div>
+    <!------------------اتمام انتخاب خانومی------------------>
+
+    <!------------------برندهای برتر------------------>
+    <div class="best-brands d-flex flex-column mx-auto mt-5">
+      <div
+        class="titr d-flex justify-content-center align-items-center pt-4 pb-3"
+      >
+        برندهای برتر
+      </div>
+      <div
+        class="brands w-100 d-flex flex-row flex-wrap justify-content-center row-gap-2 column-gap-5"
+      >
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-1.jpg"
+            alt="Fulica"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-2.jpg"
+            alt="Prime"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-3.png"
+            alt="Cerita"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-4.jpg"
+            alt="Ardene"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-5.jpg"
+            alt="Sunsafe"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-6.jpg"
+            alt="Callista"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-7.jpg"
+            alt="La farrerr"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-8.jpg"
+            alt="Hydro derm"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-9.jpg"
+            alt="Neu derm"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-10.jpg"
+            alt="Syn skin"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-11.jpg"
+            alt="Deep sense"
+            class="w-100 rounded-2"
+        /></a>
+        <a href="#" class="d-block rounded-2"
+          ><img
+            src="./image/best-brands-12.jpg"
+            alt="Ginagen"
+            class="w-100 rounded-2"
+        /></a>
+      </div>
+    </div>
+    <!------------------اتمام برندهای برتر------------------>
+
+    <footer class="col-12 mt-5">
+      <!----------------بخش سورمه ای رنگ فوتر---------------->
+      <div
+        class="first-section col-12 d-flex justify-content-center column-gap-2 w-100 py-3"
+      >
+        <div
+          class="item1 col-xl-3 col-12 d-flex flex-column row-gap-2 py-3 ps-3"
+        >
+          <div class="rahnama col-12 d-flex justify-content-between">
+            <div class="etelaat w-auto col-xl-6 d-flex flex-column">
+              <h6 class="text-white">اطلاعات خانومی</h6>
+              <a href="#" class="text-decoration-none mb-1 text-white"
+                >درباره ما</a
+              >
+              <a href="#" class="text-decoration-none mb-1 text-white"
+                >ارتباط با ما</a
+              >
+              <a href="#" class="text-decoration-none mb-1 text-white"
+                >فرصت های شغلی</a
+              >
+              <a href="#" class="text-decoration-none mb-1 text-white"
+                >حریم خصوصی</a
+              >
+            </div>
+            <div class="rahnamaii w-auto col-xl-6 d-flex flex-column">
+              <h6 class="text-white">راهنمای کاربران</h6>
+              <a href="#" class="text-decoration-none mb-1 text-white"
+                >نحوه خرید و پرداخت</a
+              >
+              <a href="#" class="text-decoration-none mb-1 text-white"
+                >نحوه خرید از تخفیف های شانس</a
+              >
+              <a href="#" class="text-decoration-none mb-1 text-white"
+                >نحوه ارسال و تحویل کالا</a
+              >
+              <a href="#" class="text-decoration-none mb-1 text-white"
+                >شرایط و نحوه مرجوعی کالا</a
+              >
+            </div>
+          </div>
+          <div
+            class="pasokhgooii col-12 d-flex align-items-end flex-column mt-4"
+          >
+            <p class="align-self-start text-white">
+              هفت روز هفته، از 8 الی 23 پاسخگوی سوالات شما هستیم.
+            </p>
+            <p class="text-white m-0">
+              021-79186000 <span class="fas fa-phone-alt"></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="khat"></div>
+        <div class="khat-res w-100 d-xl-none"></div>
+
+        <div class="item2 col-xl-3 col-12 d-flex flex-column py-3 px-3">
+          <h6 class="text-white">دانلود اپلیکیشن موبایل</h6>
+          <div class="app col-12 d-flex justify-content-around pt-2">
+            <div class="apps col-xl-5 col-12 d-flex flex-xl-column row-gap-3">
+              <a href="#" class="d-block col-xl-12 col-lg-2 col-3 rounded-2"
+                ><img src="./image/app-1.png" alt="بازار" class="w-100"
+              /></a>
+              <a href="#" class="d-block col-xl-12 col-lg-2 col-3 rounded-2"
+                ><img src="./image/app-2.png" alt="آی اپس" class="w-100"
+              /></a>
+              <a href="#" class="d-block col-xl-12 col-lg-2 col-3 rounded-2"
+                ><img src="./image/app-3.png" alt="مایکت" class="w-100"
+              /></a>
+            </div>
+            <div
+              class="tandis col-5 d-flex flex-column align-items-center row-gap-2"
+            >
+              <a href="#" class="d-block w-75 rounded-3"
+                ><img
+                  src="./image/app-4.jpg"
+                  alt="تندیس زرین"
+                  class="img-fluid h-100 rounded-3"
+              /></a>
+              <a href="#" class="text-decoration-none text-white"
+                ><p class="m-0">
+                  برنده تندیس زرین برند محبوب مصرف‌کنندگان 1402
+                </p></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="khat"></div>
+        <div class="khat-res w-100 d-xl-none"></div>
+
+        <div class="item3 col-xl-3 col-12 d-flex flex-column py-3">
+          <div class="namad col-12 d-flex justify-content-center column-gap-3">
+            <a href="#" class="d-block col-xl-3 col-2 bg-white p-1 rounded-3"
+              ><img
+                src="./image/namad-1.png"
+                alt="enamad"
+                class="img-fluid w-100 h-100"
+            /></a>
+            <a
+              href="#"
+              class="d-flex justify-content-center col-xl-3 col-2 bg-white p-1 rounded-3"
+              ><img
+                src="./image/namad-2.png"
+                alt="عضو اتحادیه کشوری"
+                class="img-fluid w-75 h-100"
+            /></a>
+            <a href="#" class="d-block col-xl-3 col-2 bg-white p-1 rounded-3"
+              ><img
+                src="./image/namad-3.png"
+                alt="نشان ملی ثبت"
+                class="img-fluid w-100 h-100"
+            /></a>
+          </div>
+          <div
+            class="email col-12 d-flex flex-column justify-content-around row-gap-3 py-2"
+          >
+            <div class="email-sabt col-12">
+              <p class="text-white">
+                <span class="fas fa-envelope text-white"></span> ایمیلت رو وارد
+                کن تا از تخفیف‌ها جا نمونی :
+              </p>
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="ایمیل خود را وارد نمائید"
+                class="col-xl-8 col-9 rounded-3 p-1"
+              />
+              <input
+                type="submit"
+                value="ثبت"
+                class="col-xl-3 col-2 rounded-3 p-1 text-white"
+              />
+            </div>
+            <div class="khat w-100 bg-light"></div>
+            <div class="media col-12 d-flex justify-content-between">
+              <a
+                href="#"
+                class="d-flex justify-content-between text-decoration-none"
+              >
+                <span class="fab fa-instagram text-white"></span>
+              </a>
+              <a
+                href="#"
+                class="d-flex justify-content-between text-decoration-none"
+              >
+                <span class="fab fa-telegram text-white"></span>
+              </a>
+              <a
+                href="#"
+                class="d-flex justify-content-between text-decoration-none"
+              >
+                <span class="fab fa-pinterest text-white"></span>
+              </a>
+              <a
+                href="#"
+                class="d-flex justify-content-between text-decoration-none"
+              >
+                <span class="fab fa-facebook text-white"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----------------اتمام بخش سورمه ای رنگ فوتر---------------->
+
+      <div class="second-section d-flex flex-column mt-2">
+        <h5 class="mx-auto">
+          خانومی، فروشگاه اینترنتی لوازم آرایشی بهداشتی اصل
+        </h5>
+        <div class="matn-1">
+          <h6 class="pt-2">
+            فروشگاه اینترنتی خانومی،خرید اینترنتی آسان و مطمئن با بهترین قیمت
+          </h6>
+          <p>
+            فروشگاه اینترنتی خانومی با عرضه بهترین مارک های لوازم آرایشی
+            بهداشتی، عطر و ادکلن اصل ،امکان خرید اینترنتی از مجموعه کاملی از
+            کالاهای مورد نیاز یک بانوی شیک پوش و مشکل پسند ایرانی را فراهم آورده
+            است. فروشگاه اینترنتی خانومی نمایندگی رسمی تمامی برندهای آرایشی و
+            بهداشتی را داراست و شما در فروشگاه اینترنتی خانومی به آسانی به
+            مجموعه کاملی از برندهای آرایشی و بهداشتی دسترسی خواهید داشت. با خرید
+            آنلاین از فروشگاه اینترنتی خانومی با ارائه توضیحات کارشناسی شده و
+            دقیق درباره ویژگی های هر کالا در وب سایت، مشاوره و راهنمای خرید،
+            تضمین اصالت کالا و بهترین قیمت در فروشگاه اینترنتی خانومی ، این
+            امکان فراهم آمده است به راحتی و با یک خرید اینترنتی لذت بخش، مطمئن و
+            آسان کالای مورد نظر خود را تهیه کرده و به سرعت در سراسر ایران دریافت
+            نمایید و با استفاده از بهترین های لوازم آرایشی بهداشتی از زیبایی خود
+            لذت ببرید.
+          </p>
+        </div>
+        <div class="matn-2">
+          <h6>شعار خانومی: زیبا و سرزنده باش به خاطر خودت</h6>
+          <p class="m-0">
+            فروشگاه اینترنتی خانومی فعالیت خود را در سال 1392 آغاز کرده است و با
+            فروش اینترنتی مجموعه کاملی از بهترین های لوازم آرایشی بهداشتی شامل
+            بهترین مارک های لوازم آرایشی، بهترین مارک های کرم پودر و پنکک،
+            کانسیلر و رژ گونه، انواع ریمل و خط چشم، بهترین مارک های رژ لب و خط
+            لب، محصولات آرایش بدن و تاتو، هم چنین بهترین مارک های محصولات مراقبت
+            پوست شامل انواع کرم مرطوب کننده و آبرسان، کرم ضد آفتاب، ضد لک و روشن
+            کننده، ضد چروک، لیفت و سفت کننده و انواع ماسک، محصولات مراقبت دور
+            چشم شامل بهترین مارک های کرم ضد پف و تیرگی دور چشم، ضد چروک و مرطوب
+            کننده، محصولات مراقبت مو شامل مجموعه کاملی از بهترین برندهای شامپو،
+            نرم کننده و حالت دهنده، ماسک، اسپری، سرم و تونیک مو، و همچنین مجموعه
+            بی نظیری از عطر و ادکلن زنانه و مردانه اصل امکان خرید اینترنتی را
+            فراهم می آورد تا به سهولت، کالاهای مورد نظر خود را از بهترین برندهای
+            لوازم آرایشی بهداشتی شامل لورال، میبلین، گارنیر، بورژوا، اسنس، آرت
+            دکو، بیو، بیودرما، نوروا، ویشی، لیراک و ده ها برند مطرح دنیا تهیه
+            نموده و با اطمینان از اصالت کالا و بهترین قیمت، از خرید اینترنتی خود
+            لذت ببرید.
+          </p>
+          <p>
+            لازم به تاکید است کلیه واردکنندگان و تولیدکنندگان کالاهای عرضه شده
+            در فروشگاه خانومی موظف به ارائه پروانه بهداشتی ورود یا ساخت از وزارت
+            بهداشت و نصب آن روی کالاهای ارائه شده می باشند و درصورتی که کالا
+            بدون پروانه بهداشت برای شما ارسال گردید فورا واحد پشتیبانی مشتریان
+            خانومی به شماره 02179186000 را در جریان قراردهید تا اقدامات لازم
+            برای تعویض محصول را انجام دهند.
+          </p>
+        </div>
+      </div>
+
+      <!----------------بخش صورتی رنگ فوتر---------------->
+      <div class="third-section py-2 d-flex justify-content-center">
+        <p class="text-white m-0">
+          کلیه حقوق این سایت متعلق به فروشگاه آنلاین خانومی می باشد.
+        </p>
+      </div>
+      <!----------------اتمام بخش صورتی رنگ فوتر---------------->
+    </footer>
+
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper-autoplay", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 5,
+        spaceBetween: 11,
+        freeMode: true,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
